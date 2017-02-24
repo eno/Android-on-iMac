@@ -1,0 +1,10 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="vertical">
+<TextView android:id="@+id/bossTxt1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="TextView"/>
+<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Comments Below"/>
+<EditText android:id="@+id/boss2comment" android:layout_width="match_parent" android:layout_height="wrap_content" android:ems="10">
+<requestFocus/>
+</EditText>
+<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Approved By:"/>
+<EditText android:id="@+id/boss2approve" android:layout_width="match_parent" android:layout_height="wrap_content" android:ems="8" android:inputType="textPersonName"/>
+<Button android:id="@+id/btn2origin" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Return"/>
+</LinearLayout>

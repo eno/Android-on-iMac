@@ -1,0 +1,66 @@
+//StarPattern.java
+//author: Eno Udo
+//date: Nov 15, 2013
+//Copyrights Reserved
+//
+
+public class StarPattern {
+
+	/**
+	 * @param args
+	 */
+
+	public static void rightDecline() {
+		int max = 10;
+		int stars = max;
+		for (int i = 0; i < 10; i++) {
+			while (stars >= 1) {
+				System.out.print("*");
+				stars--;
+			}
+			max -= 1;
+			stars = max;
+			System.out.println();
+		}
+	}
+
+	public static void leftDecline() {
+		int max = 0;
+		int stars = max;
+		for (int i = 0; i < 10; i++) {
+			for (int j = (9 - max); j > 0; j--)
+				System.out.print(" ");
+			while (stars <= max) {
+				System.out.print("*");
+				stars++;
+			}
+			max += 1;
+			stars = 0;
+			System.out.println();
+		}
+	}
+	public static void innerLeftDecline(){
+		int max = 10;
+		int stars = max;
+		for (int i = 0; i < 10; i++) {
+			for (int j = (10 - max); j > 0; j--)
+				System.out.print(" ");
+			while (stars >= 1) {
+				System.out.print("*");
+				stars--;
+			}
+			max -= 1;
+			stars = max;
+			System.out.println();
+		}
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		//leftDecline();
+		// rightDecline();
+		innerLeftDecline();
+
+	}
+
+}

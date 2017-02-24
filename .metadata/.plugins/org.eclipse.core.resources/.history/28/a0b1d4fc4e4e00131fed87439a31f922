@@ -1,0 +1,103 @@
+//StarPattern.java
+//author: Eno Udo
+//date: Nov 15, 2013
+//Copyrights Reserved
+//todo: android version can use a spinner to select which pattern to display
+
+public class StarPattern {
+
+	/**
+	 * @param args
+	 */
+
+	public static void rightDecline() {
+		/*
+		 * int max = 10; int stars = max; for (int i = 0; i < 10; i++) { while
+		 * (stars >= 1) { System.out.print("*"); stars--; } max -= 1; stars =
+		 * max; System.out.println(); }
+		 */
+
+		// OPTIMIZED rewritten code.
+		for (int i = 10; i > 0; i--) {
+			for (int stars = i; stars >= 1; stars--) {
+				System.out.print("*");
+			}
+			System.out.println();
+		}
+	}
+
+	public static void leftDecline() {
+		// UNOPTIMIZED version that i used while writing the code.
+		int max = 0;
+		int stars = max;
+		for (int i = 0; i < 10; i++) {
+			for (int j = (9 - max); j > 0; j--)
+				System.out.print(" ");
+			while (stars <= max) {
+				System.out.print("*");
+				stars++;
+			}
+			max += 1;
+			stars = 0;
+			System.out.println();
+		}
+	}
+
+	public static void innerLeftDecline() {
+		// int max = 10;
+		// int stars = max;
+		for (int i = 10; i > 0; i--) {
+			for (int j = (10 - i); j > 0; j--)
+				System.out.print(" ");
+			for (int stars = i; stars >= 1; stars--) {
+				System.out.print("*");
+			}
+			// max -= 1;
+			// stars = max;
+			System.out.println();
+		}
+	}
+
+	public static void diamond() {
+		// rightdecline " ", leftdecline '*'.
+		// int max = 0;
+		// int stars = max;
+		for (int i = 5; i < 0; i++) {// main row loop
+			for (int j = (9 - i); j > 0; j--)
+				// spaces loop
+				System.out.print(" ");
+			for (int stars = i; stars <= 9; stars += 2) {// stars loop
+				System.out.print("*");
+
+			}// end stars loop
+				// max += 2;
+				// stars = 0;
+			System.out.println();
+		}
+		// max -= 2;
+		for (int i = 0; i < 5; i++) {// second row loop
+			// second half
+			for (int j = (9 - i); j > 0; j--)
+				// spaces loop
+				System.out.print(" ");
+			for (int stars = i; stars >= 1; stars -= 2) {// stars loop
+				System.out.print("*");
+
+			}// end stars loop
+				// max -= 2;
+				// stars = 0;
+			System.out.println();
+		}// end second row loop
+
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		// leftDecline();
+		// rightDecline();
+		// innerLeftDecline();
+		diamond();
+
+	}
+
+}

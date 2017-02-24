@@ -1,0 +1,28 @@
+//StarPattern.java
+//author: Eno Udo
+//date: Nov 15, 2013
+//Copyrights Reserved
+//
+
+public class StarPattern {
+
+	/**
+	 * @param args
+	 */
+
+	public static void rightDecline(){
+		for (int i = 0; i < 10; i++) {
+			for (int stars=10; stars>1; stars--)
+			{ 
+				System.out.println(*);
+			}
+		}
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		rightDecline();
+
+	}
+
+}

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, ReceiptActivity!</string>
+    <string name="app_name">Receipt</string>
+    <string name="my_title">Receipt Calculation</string>
+</resources>

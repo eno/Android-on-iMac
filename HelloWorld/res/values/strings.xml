@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello Android from John thru res values strings name value ha ha ha</string>
+    <string name="app_name">helloWorld</string>
+</resources>

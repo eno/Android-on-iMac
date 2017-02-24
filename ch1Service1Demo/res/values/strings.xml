@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, Ch1Service1DemoActivity!</string>
+    <string name="app_name">Ch1Service1Demo</string>
+</resources>

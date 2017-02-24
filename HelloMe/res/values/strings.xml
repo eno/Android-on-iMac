@@ -1,0 +1,11 @@
+<resources>
+
+    <string name="app_name">HelloMe</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_my_hello">MyHello</string>
+    <string name="hi! ^( ' v '  )&gt;">hi</string>
+    <string name="Say_hi">KITA!!!</string>
+    <string name="addname">Give me your name</string>
+
+</resources>

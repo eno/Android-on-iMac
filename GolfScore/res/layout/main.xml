@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	<TextView android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:text="@string/title"
+		android:textSize="24dp" android:textStyle="bold" android:padding="10dp"
+		android:gravity="center" />
+	<LinearLayout android:id="@+id/LinearLayout01"
+		android:layout_height="wrap_content" android:layout_width="fill_parent">
+		<Button android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:text="-"
+			android:layout_weight="1" android:id="@+id/buttonMinus"></Button>
+		<Button android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:text="+"
+			android:layout_weight="1" android:id="@+id/buttonPlus"></Button>
+		<TextView android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:textSize="25dp"
+			android:id="@+id/textScore" android:text="99"></TextView>
+		<Button android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:text="OK"
+			android:layout_weight="1" android:id="@+id/buttonOK"></Button>
+	</LinearLayout>
+
+
+	<LinearLayout android:id="@+id/LinearLayout02"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:layout_gravity="right">
+		<Button android:layout_width="wrap_content" android:id="@+id/buttonOverall"
+			android:text="Overall" android:layout_gravity="bottom"
+			android:layout_height="wrap_content"></Button>
+		<TextView android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:id="@+id/textOverall"
+			android:gravity="bottom" android:textStyle="italic"
+			android:textSize="20dp" android:scrollbarAlwaysDrawVerticalTrack="true"></TextView>
+		<Button android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:text="Reset" android:id="@+id/buttonReset"
+			android:layout_gravity="bottom"></Button>
+	</LinearLayout>
+
+	<TextView android:layout_height="wrap_content"
+		android:layout_width="fill_parent" android:text="score card goes here"
+		android:id="@+id/textScoreCard" android:textSize="15dp"></TextView>
+
+
+
+
+</LinearLayout>

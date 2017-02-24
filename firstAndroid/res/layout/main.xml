@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:background="@drawable/newyork" android:layout_height="fill_parent">
+	<TextView android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:text="My First Android Demo"
+		android:id="@+id/myTitle" />
+
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:orientation="horizontal" 
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content">
+		<EditText 
+		    android:id="@+id/userInput"
+			android:text=" " 
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content" 
+			android:layout_weight="5">
+			<requestFocus></requestFocus>
+		</EditText>
+		<Button android:text="Button" 
+		    android:id="@+id/mybn1"
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content"></Button>
+	</LinearLayout>
+
+	<TextView android:textAppearance="?android:attr/textAppearanceLarge"
+		android:layout_height="wrap_content" android:layout_width="wrap_content"
+		android:id="@+id/myview" android:text="Hello, It's Me!"></TextView>
+
+</LinearLayout>

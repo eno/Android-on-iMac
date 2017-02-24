@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;first.SecondDriver&apos; to &apos;SecondPanel&apos;&#x0A;- Original project: &apos;PanelTraining&apos;&#x0A;- Original element: &apos;first.SecondDriver&apos;&#x0A;- Renamed element: &apos;first.SecondPanel&apos;&#x0A;- Update references to refactored element&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;SecondDriver&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;first{SecondDriver.java[SecondDriver" matchStrategy="1" name="SecondPanel" qualified="false" references="true" similarDeclarations="false" stamp="1387496728470" textual="false" version="1.0"/>
+</session>

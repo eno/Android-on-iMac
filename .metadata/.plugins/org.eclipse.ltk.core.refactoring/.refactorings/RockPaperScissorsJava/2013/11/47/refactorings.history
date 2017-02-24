@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 2 elements to &apos;RockPaperScissorsAndroid/src/com.RockPaperScissors&apos;&#x0A;- Original project: &apos;RockPaperScissorsJava&apos;&#x0A;- Destination element: &apos;RockPaperScissorsAndroid/src/com.RockPaperScissors&apos;&#x0A;- Original elements:&#x0A;     Player.java&#x0A;     Game.java" description="Copy compilation units" destination="=RockPaperScissorsAndroid/src&lt;com.RockPaperScissors" element1="/src&lt;{Player.java" element2="/src&lt;{Game.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1384985635629" units="2" version="1.0"/>
+</session>

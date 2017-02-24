@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+<TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="Select Items"
+    android:textSize="25dp"
+    />
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+      <Spinner 
+        android:id="@+id/myspinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+      <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+      >
+       <ScrollView
+          android:layout_width="fill_parent"
+          android:layout_height="200px" >
+        <TextView
+           android:id="@+id/listSelection"
+           android:layout_width="fill_parent"
+           android:layout_height="wrap_content" />
+       </ScrollView>
+        <TextView
+           android:id="@+id/taxInfo"
+           android:text="Tax"
+           android:layout_width="fill_parent"
+           android:layout_height="wrap_content" />
+        <TextView
+           android:id="@+id/subTot"
+           android:text="Subtotal"
+           android:layout_width="fill_parent"
+           android:layout_height="wrap_content" />
+      
+      </LinearLayout>
+      
+    
+    </LinearLayout>
+</LinearLayout>
+

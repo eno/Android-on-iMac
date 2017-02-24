@@ -1,0 +1,10 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent" android:layout_height="match_parent" tools:context=".MainActivity">
+<TextView android:id="@+id/textView1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" android:text="What I Want: " android:textAppearance="?android:attr/textAppearanceMedium"/>
+<EditText android:id="@+id/whatIWant" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_below="@+id/textView1" android:ems="10" android:inputType="textPersonName">
+<requestFocus/>
+</EditText>
+<Button android:id="@+id/btnRequest" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_below="@+id/whatIWant" android:layout_marginTop="5dp" android:onClick="doThisOnClick" android:text="To Boss"/>
+<TextView android:id="@+id/ret4Boss" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@+id/btnRequest" android:layout_marginTop="55dp"/>
+<Button android:id="@+id/btnReques2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_below="@+id/ret4Boss" android:layout_marginTop="5dp" android:onClick="doThisOnClick" android:text="To Store"/>
+<Button android:id="@+id/btn2init" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:text="Initialization for File and SQLite"/>
+</RelativeLayout>
